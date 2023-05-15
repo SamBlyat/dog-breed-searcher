@@ -11,13 +11,12 @@ This is a web application that allows users to search for dog breeds and view im
 ## Installation
 
 1. Clone the repository.
-2. Install dependencies.
-3. Run the app.
+2. Run the app.
 
 ## Usage
 
 1. Open the app.
-2. Enter a breed name in the search bar or browse all breeds.
+2. Enter a breed name in the search bar or browse galery of breeds.
 3. Click on a breed to view images and information about the breed.
 
 ### NOTE
