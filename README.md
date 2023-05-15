@@ -16,7 +16,7 @@ This is a web application that allows users to search for dog breeds and view im
 ## Usage
 
 1. Open the app.
-2. Enter a breed name in the search bar or browse galery of breeds.
+2. Enter a breed name in the search bar or browse gallery of breeds.
 3. Click on a breed to view images and information about the breed.
 
 ### NOTE
