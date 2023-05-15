@@ -20,9 +20,6 @@ This is a web application that allows users to search for dog breeds and view im
 2. Enter a breed name in the search bar or browse all breeds.
 3. Click on a breed to view images and information about the breed.
 
-## Contributing
+### NOTE
 
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes.
-4. Submit a pull request.
+THIS PROJECT IS STILL EARLY STAGES AND IS MEANT TO BE USED FOR A CODING PORTFOLIO
