@@ -7,6 +7,7 @@
   <body>
     <header>
       <h1>Dog Breed Search App</h1>
+      <button onclick="location.reload()">Go back to gallery</button>
       <form>
         <input id="search-bar" type="text" placeholder="Search for a breed...">
         <button type="button" onclick="SearchDogs()">Search</button>
@@ -15,7 +16,10 @@
     <main>
       <div class="gallery" id="gallery">
         <!-- Images will be displayed here -->
-      </div>
+        <div class="loading-screen" id="loading-screen">
+            <div class="loader"></div>
+        </div>
+      
     </main>
     <script src="script.js"></script>
   </body>
