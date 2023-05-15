@@ -1,54 +1,56 @@
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-font-family: Arial, sans-serif;
-background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
 }
 
 header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 1rem;
-background-color: #fff;
-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-font-size: 2rem;
+    font-size: 2rem;
 }
 
 form {
-display: flex;
+    display: flex;
 }
 
 input[type="text"] {
-padding: 0.5rem;
-border-radius: 4px;
-border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid gray;
+    margin-right: 10px;
 }
 
-button[type="submit"] {
-padding: 0.5rem;
-border-radius: 4px;
-border: none;
-background-color: #007bff;
-color: #fff;
+button {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px;
 }
 
 main {
-max-width: 1200px;
-margin: auto;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .gallery {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-gap:1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
 }
 
 .col-lg {
@@ -68,7 +70,7 @@ gap:1rem;
 }
 
 
-  
+
 .srch-col-lg {
     width: 70vw;
     height: 90vh;
@@ -93,8 +95,10 @@ gap:1rem;
 
 /* Add a loading animation */
 .loading-screen .loader {
-    border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #3498db; /* Blue */
+    border: 16px solid #f3f3f3;
+    /* Light grey */
+    border-top: 16px solid #3498db;
+    /* Blue */
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -103,8 +107,13 @@ gap:1rem;
 
 /* Animate the loading animation */
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 #error-text {
